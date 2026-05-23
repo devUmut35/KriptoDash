@@ -1,45 +1,32 @@
-# Proje Adı
+# KriptoDash
 
-Bu proje, modern web geliştirme standartlarına uygun olarak hazırlanmış responsive bir web uygulamasıdır. Projede kullanıcı deneyimi, performans, SEO uyumluluğu ve farklı tarayıcılarda sorunsuz çalışma kriterleri dikkate alınmıştır.
+KriptoDash, React ile geliştirilmiş responsive bir kripto portföy dashboard uygulamasıdır. Projede kullanıcıların portföy durumunu görüntüleyebilmesi, grafiklerle verileri takip edebilmesi ve açık/koyu tema arasında geçiş yapabilmesi hedeflenmiştir.
 
-## Proje Özellikleri
+## Özellikler
 
-- Responsive yani duyarlı tasarım uygulanmıştır.
-- Sayfa yapısı `header`, `main` ve `footer` bölümlerinden oluşmaktadır.
-- Grid sistemi / CSS framework yapısı kullanılmıştır.
-- CSS animasyonları ve/veya JavaScript destekli geçiş efektleri eklenmiştir.
-- SEO uyumlu meta etiketleri yapılandırılmıştır.
-- Açık/koyu tema modu geçiş özelliği bulunmaktadır.
-- Farklı tarayıcılarda uyumluluk testleri yapılmıştır.
-- Google Lighthouse ile performans analizi hazırlanmıştır.
+- Responsive tasarım
+- Açık/koyu tema desteği
+- Kripto portföy dashboard arayüzü
+- Grafik tabanlı veri gösterimi
+- Bootstrap grid sistemi
+- SCSS kullanımı
+- SEO uyumlu temel meta yapılandırması
+- Modern ve kullanıcı dostu arayüz
 
 ## Kullanılan Teknolojiler
 
+- React
+- JavaScript
+- Bootstrap
+- SCSS / Sass
+- Chart.js
 - HTML5
 - CSS3
-- JavaScript
-- React
-- CSS Önişlemci / SCSS
-- Responsive tasarım yapısı
-- SEO meta yapılandırması
-- Lighthouse performans analizi
 
-## Proje Yapısı
+## Kurulum
 
-```txt
-proje-klasoru/
-│
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── styles/
-│   └── App.jsx
-│
-├── public/
-│
-├── reports/
-│   ├── lighthouse-report.html
-│   └── cross-browser-test-report.pdf / .docx
-│
-├── README.md
-└── package.json
+Projeyi yerel ortamda çalıştırmak için:
+
+```bash
+npm install
+npm start
